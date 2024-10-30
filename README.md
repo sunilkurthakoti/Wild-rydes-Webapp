@@ -59,6 +59,7 @@ This project demonstrates deploying a serverless application using AWS services 
 
 2. **Update `config.js` in GitHub**:
    * In your GitHub repository, open `config.js` and paste the **User Pool ID** and **Client ID** from Cognito.
+     ![Screenshot (35)](https://github.com/user-attachments/assets/3b861794-003f-4624-a7c9-7bf486afcda6)
    * Commit and push changes to GitHub. Amplify will automatically redeploy with these updates.
 
 3. **User Sign-Up and Verification**:
