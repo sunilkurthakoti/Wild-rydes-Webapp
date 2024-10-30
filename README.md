@@ -87,7 +87,7 @@ This project demonstrates deploying a serverless application using AWS services 
 1. **Create IAM Role for Lambda**:
    * Go to **IAM** and create a new role with **Lambda permissions**.
    * Attach a custom policy or add `AmazonDynamoDBFullAccess` for access to your DynamoDB table.
-   * If you create a custom policy, use the **DynamoDB ARN** for restricted access to your table.
+   * Attach a custom policy that specifies the ARN of your DynamoDB table. This ensures that the Lambda function has access only to that particular table, enhancing security by preventing access to other resources.
      ![Screenshot (25)](https://github.com/user-attachments/assets/286c4989-e6c0-4aea-abe1-24fdaa158d99)
 
 
